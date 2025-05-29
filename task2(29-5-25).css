@@ -1,0 +1,93 @@
+#username{
+    border: 0px;
+    border-bottom: 2px solid black;
+    
+
+    width: 300px;
+    height: 30px;
+    background-color: rgba(171, 177, 203, 0);
+}
+#password{
+    background-color: rgba(171, 177, 203, 0);
+
+    border: 0px;
+    border-bottom: 2px solid black;
+
+    width: 300px;
+    height: 30px;
+}
+body{
+    
+    background-image: url("aesthetic-computer-4k-c9qdhe02pr84wh3a.jpg");
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+
+}
+a{
+    text-decoration-color: white;
+    color: white;
+    font-size: smaller;
+
+    
+}
+.hello{
+    height: 300px;
+    width: 400px;
+    background-color: rgba(181, 183, 192, 0.418);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    color: white;
+
+    padding-bottom: 100px;
+
+    border-radius: 20px;
+
+    box-shadow: 5px 5px 10px white;
+    
+
+}
+button{
+    background-color: rgb(17, 201, 85);
+    height: 30px;
+    width: 300px;
+    color: white;
+    border-radius: 5px;
+
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+}
+.profilepic{
+    height: 150px;
+    width: 150px;
+    background-color: aquamarine;
+    border-radius: 50%;
+
+    
+
+    position: relative;
+    left: 77px;
+    bottom: 60px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#username::placeholder, #password::placeholder {
+    color: white;
+}
+
+span{
+    color: white;
+}
+
